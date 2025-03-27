@@ -429,7 +429,7 @@ body {
 }
 
 .love-letter {
-    font-family: cursive;
+    font-size: 14px;
     width: 100%;
     /* Bigger width */
     min-height: 700px;
