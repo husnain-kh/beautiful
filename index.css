@@ -379,13 +379,23 @@ body {
     z-index: 10;
     display: flex;
     margin-top: 1rem;
-    gap: 10rem;
+    gap: 4rem;
+    text-align: center;
     justify-content: space-between;
 }
 
+.control-btn ion-icon {
+    font-size: 1rem;
+    /* Increase size */
+    text-align: center;
+    font-weight: bold;
+}
+
 .control-btn {
+    text-align: center;
     padding: 10px 20px;
     font-size: 18px;
+    line-height: 1;
     background: #ff4d79;
     color: white;
     border: none;
