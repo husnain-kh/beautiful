@@ -45,12 +45,12 @@ body {
     max-width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 550px;
+    height: 500px;
 }
 
 .header-text {
     position: absolute;
-    top: 3.5rem;
+    top: 2.5rem;
     color: white;
     font-family: 'Great Vibes', cursive;
     font-size: 3.5rem;
@@ -62,7 +62,7 @@ body {
 .typing-text {
     top: 9.5rem;
     position: absolute;
-    left: 32%;
+    left: 4rem;
     font-size: 2rem;
     color: #Ffffff;
     word-spacing: 2px;
@@ -140,7 +140,7 @@ body {
 
 .container .letter-text-btn {
     position: absolute;
-    top: 29rem;
+    top: 25rem;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Lobster', cursive;
@@ -176,7 +176,7 @@ body {
 
 .bulbs {
     position: absolute;
-    top: 30%;
+    top: 13rem;
     left: 0%;
     width: 100%;
     height: auto;
@@ -215,9 +215,9 @@ body {
     line-height: 1.5;
     text-align: right;
     padding: 4px;
-    color: #1308ef;
+    color: #d4ef08;
     text-shadow: 0 0 10px #FFD700, 0 0 20px #FFA500, 0 0 30px #FF8C00;
-    animation: blink-animation 0.5s infinite alternate;
+    animation: blink-animation 0.2s infinite alternate;
 }
 
 @keyframes blink-animation {
@@ -227,7 +227,7 @@ body {
 
     /* Fully visible */
     100% {
-        opacity: 0.5;
+        opacity: 0.8;
     }
 
     /* Almost invisible */
@@ -413,7 +413,6 @@ body {
     position: absolute;
     z-index: 100;
     color: #0c0c0c;
-    font-family: 'Lobster', cursive;
     font-size: 3rem;
     top: -30px;
 }
