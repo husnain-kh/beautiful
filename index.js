@@ -1,5 +1,5 @@
-const text = "Eid Mubarik Walija";
-const specialWord = "Walija";
+const text = "Eid Mubarik Ayesha";
+const specialWord = "Ayesha";
 let index = 0;
 let container = document.querySelector(".typing-text");
 let output = ""; // Store the typed text before inserting into HTML

@@ -8,6 +8,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.big-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -24,7 +30,7 @@ body {
 
 .container {
     min-width: 300px;
-    max-width: 450px;
+    max-width: 400px;
     height: 80%;
     position: relative;
     background: #B6606D;
@@ -235,7 +241,7 @@ body {
     width: 450px;
     background: rgba(255, 255, 255, 0.3);
     margin: 10px auto;
-    min-width: 300px;
+    width: 100%;
 }
 
 .container::after {
@@ -273,7 +279,7 @@ body {
     border-radius: 10px;
     z-index: 5;
     overflow: hidden;
-    width: 450px;
+    width: 100%;
     height: 550px;
     position: relative;
     perspective: 1400px;
@@ -288,7 +294,7 @@ body {
 }
 
 .gallery-header {
-    max-width: 450px;
+    max-width: 100%;
     text-align: center;
     color: #fff;
     padding: 20px 20px;
@@ -412,7 +418,7 @@ body {
 
 .love-letter {
     font-family: 'Dancing Script', cursive;
-    width: 450px;
+    width: 100%;
     /* Bigger width */
     min-height: 700px;
     /* Bigger height */
