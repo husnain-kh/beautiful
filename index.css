@@ -420,6 +420,7 @@ body {
 
 
 .love-title {
+    font-family: "Amiri";
     position: absolute;
     z-index: 100;
     color: #0c0c0c;
@@ -428,7 +429,7 @@ body {
 }
 
 .love-letter {
-    font-family: 'Dancing Script', cursive;
+    font-family: cursive;
     width: 100%;
     /* Bigger width */
     min-height: 700px;
