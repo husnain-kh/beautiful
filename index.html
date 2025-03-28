@@ -13,18 +13,21 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div class="loader-wrapper" id="preloader">
+    <div class="loader"></div>
+</div>
     <div class="big-container">
      <div class="container">
       <img
-        src="background.png"
+        src="background.png" loading="lazy"
         alt="eid background picture"
         class="background-image"
       />
       <div class="container-content">
-        <h1 class="header-text">Eid Mubarik</h1>
-        <p class="cursor typing-text"></p>
+        <h1 class="header-text hidden " id="header">Eid Mubarik</h1>
+        <p class="cursor typing-text hidden"></p>
       </div>
-      <div class="stars-container">
+      <div class="stars-container hidden">
         <div class="star">*</div>
         <div class="star">*</div>
         <div class="star">*</div>
@@ -119,11 +122,12 @@
         <div class="star">*</div>
         <div class="star">*</div>
       </div>
-      <a class="letter-text-btn" href="#letter">Read Letter</a>
-      <img src="./bulabs.png" alt="bulbs" class="bulbs" />
-      <p class="urdu-text">
-        عيد مبارك <span class="block-urdu">كل عام وأنتم بخي</span>
+      <a class="letter-text-btn hidden" href="#letter">Read Letter</a>
+      <img src="./bulabs.png" alt="bulbs" class="bulbs hidden" loading="lazy" />
+      <p class="urdu-text ">
+        <span class="hidden urdu-txt">عيد مبارك </span><span class="block-urdu hidden urdu-txt">كل عام وأنتم بخي</span>
       </p>
+      </div>
     </div> 
         <div class="gallery-header">
         <h2>For You</h2>
@@ -291,7 +295,7 @@ Forever and always yours,
         </a>
     </div>
     <div class="div-back">
-    <a class="back-to-top" href="#">⬆ Back to Top</a>
+    <a class="back-to-top" href="#header">⬆ Back to Top</a>
     </div>
 </footer>
 
