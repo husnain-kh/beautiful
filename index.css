@@ -430,9 +430,25 @@ body {
     font-family: "Amiri";
     position: absolute;
     z-index: 100;
-    color: #0c0c0c;
+    color: #181515;
     font-size: 3rem;
-    top: -30px;
+    top: 0px;
+    line-height: 0.9;
+    margin-bottom: 4px;
+
+}
+
+.new2 {
+    width: 90%;
+    object-fit: cover;
+    object-position: left;
+    transform: scale(0.7);
+}
+
+.ayesha {
+    padding-top: 4rem;
+    font-size: 3rem;
+    color: red;
 }
 
 .love-letter {
@@ -465,14 +481,16 @@ body {
     background: red;
     left: 20px;
     top: 0;
-    height: 235rem;
+    height: 315rem;
 }
 
 .typed-text {
-    font-size: 20px;
-    color: #4e342e;
+    font-size: 1.5rem;
+    color: #131313;
     white-space: pre-wrap;
     font-weight: bold;
+    font-family: 'Caveat';
+
 }
 
 /* ❤️ Heart Decoration */
